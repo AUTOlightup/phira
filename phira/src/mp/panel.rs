@@ -142,7 +142,7 @@ impl MPPanel {
             cancel_ready_btn: DRectButton::new(),
 
             chat_text: String::new(),
-            chat_btn: DRectButton::new().with_delta(-0.002),
+            chat_btn: DRectButton::new(),
             chat_send_btn: DRectButton::new(),
             chat_task: None,
 
